@@ -18,6 +18,7 @@ If you have any questions, feel free to raise an issue or send a mail to academi
 
 ## TODOs
 - [ ] matlab implementation of FSDS
+- [ ] make a video
 - [ ] Try to use FSDS as a loss and share results
 
 ## Impulse Responses
