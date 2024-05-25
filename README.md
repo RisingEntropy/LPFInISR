@@ -19,7 +19,7 @@ If you have any questions, feel free to raise an issue or send a mail to academi
 ## TODOs
 - [ ] matlab implementation of FSDS
 - [ ] make a video
-- [ ] Try to use FSDS as a loss and share results
+- [ ] try to use FSDS as a loss and share results
 
 ## Impulse Responses
 Please refer to `Impulse_Responses.pptx`. We provide two versions, with/without enhancement. We use the enhancement provided by PPT for better visualization. The enhanced figures are brighter in color while the unenhanced ones are mathematically closer to the sinc funtion. If your directly observe the output of networks (before clamp), you will find another feature of the sinc function: negative values near the main lobe.
