@@ -1,6 +1,8 @@
 # Exploring the Low-Pass Filtering Behavior in Image Super-Resolution
 
 Haoyu Deng, Zijing Xu, Yule Duan, Xiao Wu, Wenjie Shu, Liang-Jian Deng<sup>†</sup>
+
+
 <sup>†</sup>Corresponding author
 
 
