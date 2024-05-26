@@ -1,5 +1,8 @@
 # Exploring the Low-Pass Filtering Behavior in Image Super-Resolution
 
+[![Static Badge](https://img.shields.io/badge/ICML_2024-Accepted-green)](https://icml.cc/virtual/2024/poster/35191) [![Static Badge](https://img.shields.io/badge/arXiv-2405.07919-brown?logo=arxiv)
+](https://arxiv.org/abs/2405.07919)![](https://img.shields.io/badge/Code_with-PyTorch-orange?logo=pytorch)
+
 Haoyu Deng, Zijing Xu, Yule Duan, Xiao Wu, Wenjie Shu, Liang-Jian Deng<sup>†</sup>
 
 
@@ -146,3 +149,5 @@ sr_results
     ├─swinir_classical_sr_x4
     └─swinir_classical_sr_x8
 ```
+## Acknowledgement
+We appreciate anonymous reviewers for their previous suggestions to help this paper better. Moreover, we would like to express our sincere gratitude to [Ruijie Zhu](https://github.com/ridgerchu) for his generous support in GPUs Without his support, it is hard for us to do experiments using full-scale DIV2K dataset. This work is supported by NSFC (12271083).
