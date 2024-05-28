@@ -9,7 +9,7 @@ Haoyu Deng, Zijing Xu, Yule Duan, Xiao Wu, Wenjie Shu, Liang-Jian Deng<sup>†</
 <sup>†</sup>Corresponding author
 
 
-If you have any questions, feel free to raise an issue or send a mail to academic@hydeng.cn. I will respond to you as soon as possible. If you think our work is useful, please give us a warmful citation:
+If you have any questions, feel free to raise an issue or send a mail to academic@hydeng.cn. I will respond to you as soon as possible. If you think our work is useful, please give us a warm citation:
 ```
 @article{deng2024exploring,
   title={Exploring the Low-Pass Filtering Behavior in Image Super-Resolution},
