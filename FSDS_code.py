@@ -1,7 +1,7 @@
 import math
 import torch
 import einops
-
+import numpy
 def frequency_align_integrate(tsr):
     """
     :param tsr: CxHxW
@@ -62,3 +62,17 @@ def FrequencySpectrumDistributionSimilarity(pred, gt):
             index.append(_FrequencySpectrumDistributionSimilarity(pred[i], gt[i]))
         return index
 
+def matlab_interface(pred, gt):
+    pred = numpy.array(pred)
+    gt = numpy.array(gt)
+    if len(pred.shape) != 3 or len(gt.shape) != 3:
+        print("The input array should be 3D")
+        return 0.0
+    if pred.shape != gt.shape:
+        print("The input array should have the same shape")
+        return 0.0
+    pred = torch.from_numpy(pred)
+    gt = torch.from_numpy(gt)
+    pred = einops.rearrange(pred, "H W C -> C H W")
+    gt = einops.rearrange(gt, "H W C -> C H W")
+    return FrequencySpectrumDistributionSimilarity(pred, gt)

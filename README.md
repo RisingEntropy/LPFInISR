@@ -20,7 +20,7 @@ If you have any questions, feel free to raise an issue or send a mail to academi
 ```
 
 ## TODOs
-- [ ] matlab implementation of FSDS
+- [x] matlab implementation of FSDS
 - [ ] make a video
 - [ ] try to use FSDS as a loss and share results
 
@@ -37,9 +37,11 @@ python HyRA.py --lr [path to low-resolution image] --sr [path to super-resolutio
 We also provide a tutorial for the code. Please refer to `HyRA Usage.ipynb`.
 
 ## Frequency Spectrum Distribution Similarity (FSDS)
+### Python Version
 FSDS describes the image quality from the perspective of frequency spectrum. The complete implementation of FSDS is in `FSDS_code.py`. We provide an explanation and a tutorial for the code. Please refer to `FSDS_explanation.ipynb`.
 
-
+### Matlab Version
+To ensure that matlab version produces the **same result** as python version, the best way is to use FFI produced by matlab to invoke python code. <font color="red">Please edit the python intepreter path in </font> `FrequencySpectrumDistributionSimilarity.m`. <font color="red">Make sure the intepreter produced are equipped with proper environment!!!</font> An example for this can be found in `FSDS_matlab_example.m`.
 ## Experimental Results
 We provide super-resolution results and code for Tab.1.
 
